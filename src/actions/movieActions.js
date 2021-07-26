@@ -1,5 +1,5 @@
 export const DELETE_MOVIE = "DELETE_MOVIE";
-export const ADD_Movie = "ADD_Movie";
+export const ADD_MOVIE = "ADD_MOVIE";
 
 
 export const deleteMovie = (id)=>{
@@ -8,7 +8,7 @@ export const deleteMovie = (id)=>{
 
 export const addMovie = (nameOfMovie) => {
     return ({
-        type: ADD_Movie,
+        type: ADD_MOVIE,
         payload:  nameOfMovie,
     });
 }
